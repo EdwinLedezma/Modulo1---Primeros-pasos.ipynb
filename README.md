@@ -33,4 +33,32 @@ Hola desde la consola
          ^^^^^^^^^^^^^^^^^^^^^^^^
 SyntaxError: invalid syntax. Perhaps you forgot a comma?
 >>> distancia_a_alfa_centauri = 4.367 # Parece un decimal flotante
->>> type
+>>> from datetime import date
+>>> date.today
+<built-in method today of type object at 0x00007FF82DED0BA0>
+>>> print(date.today())
+2022-02-22
+>>> print("Today's date is: " + str (date.today()))
+Today's date is: 2022-02-22
+>>> print "Bienvenido al programa de bienvenida"
+  File "<stdin>", line 1
+    print "Bienvenido al programa de bienvenida"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+>>> print("Bienvenido al programa de bienvenida")
+Bienvenido al programa de bienvenida
+>>> name = input("Introduzca su nombre")
+Introduzca su nombreEdwin
+>>> print ("Saludos: " + name)
+Saludos: Edwin
+>>> print("Calculadora")
+Calculadora
+>>> first_number = input("Primer numero: ")
+Primer numero: 5
+>>> second_number = input("Segundo numero: ")
+Segundo numero: 5
+>>> print(first_number + second_number)
+55
+>>> print(int(first_number)+int(second_number))
+10
+>>>
